@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: SA
+    password: password
+  application:
+    name: codeDR
+
+server:
+    port: 8080
